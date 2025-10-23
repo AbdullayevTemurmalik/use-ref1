@@ -1,12 +1,14 @@
 import "./App.css";
-import Banner from "./components/banner/Banner";
-import Navbar from "./components/navbar/Navbar";
+import Form from "./components/form/Form";
+// import Banner from "./components/banner/Banner";
+// import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
+      {/* <Navbar />
+      <Banner /> */}
+      <Form />
     </>
   );
 }
